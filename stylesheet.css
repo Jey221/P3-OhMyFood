@@ -1,0 +1,47 @@
+/********************************************POLICES**************************************************/
+@font-face {
+    font-family: 'robotoRegular' ;
+    src: url(/polices/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'robotoBold' ;
+    src: url(/polices/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'shrikhand' ;
+    src: url(/polices/Shrikhand/Shrikhand-Regular.ttf) format('truetype');
+}
+
+/********************************************HEADER**************************************************/
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+header img {
+    height: 32px;
+    margin-right: -8%;
+}
+/********************************************GENERAL**************************************************/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 3% 0%;
+}
+main{
+    width: 100%;
+}
+h3 {
+    font-family: "robotoRegular", sans-serif;
+}
+/********************************************LOCALISATION*********************************************/
+#localisation {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    background-color: gainsboro;
+    box-shadow: inset -1px 5px 7px -3px rgb(175, 171, 171);}
