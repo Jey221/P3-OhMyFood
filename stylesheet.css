@@ -55,6 +55,7 @@ h3 , p , a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5%;
 }
 #presentationH2 {
     padding: 0% 5%;
@@ -80,9 +81,49 @@ h3 , p , a {
     color: white;
     box-shadow: -1px 5px 7px -3px rgb(175, 171, 171);
 }
-
 #presentationA a :hover {
     background-color: black;
     transform: scale(1.7);
     transition: all 300ms;
+}
+/********************************************FONCTIONNEMENT*********************************************/
+#fonctionnement {
+    padding: 1% 4%;
+}
+#fonctionnement h2 {
+    margin: 6% 0%;
+}
+#cartes {
+    margin-left: 8%;
+}
+.carteTuto {
+    background-color: rgba(246, 246, 246, 0.822);
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    box-shadow: 1px 1px 16px 0px rgb(175 171 171);
+    width: 92%;
+    border-radius: 17px;
+}
+.numeroTuto {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 10px;
+    padding: 2% 3%;
+    border-radius: 50%;
+    margin-left: -5%;
+}
+.numeroTuto p {
+    margin: 0%;
+}
+.texteTuto {
+    width: 100%;
+    padding: 3% 0%;
+}
+.texteTuto i {
+    color: slategrey;
+    margin-right: 8%;  
+}
+.texteTuto p {
+    font-family: 'robotoBold';
 }
