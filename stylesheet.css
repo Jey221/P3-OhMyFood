@@ -11,7 +11,6 @@
     font-family: 'shrikhand' ;
     src: url(/polices/Shrikhand/Shrikhand-Regular.ttf) format('truetype');
 }
-
 /********************************************HEADER**************************************************/
 header {
     display: flex;
@@ -32,7 +31,10 @@ body {
 main{
     width: 100%;
 }
-h3 {
+h2 {
+    font-family: "robotoBold";
+}
+h3 , p , a {
     font-family: "robotoRegular", sans-serif;
 }
 /********************************************LOCALISATION*********************************************/
@@ -43,5 +45,44 @@ h3 {
     align-items: center;
     justify-content: center;
     gap: 4%;
-    background-color: gainsboro;
+    background-color: rgba(234, 234, 234, 0.658);
     box-shadow: inset -1px 5px 7px -3px rgb(175, 171, 171);}
+/********************************************PRESENTATION*********************************************/
+#cadrePresentation {
+    padding: 9% 8% 17% 8%;
+    text-align: center;
+    background-color: rgba(246, 246, 246, 0.822);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#presentationH2 {
+    padding: 0% 5%;
+}
+#presentationH2 h2 {
+    margin: 0%;
+}
+#presentationP {
+    margin-bottom: 7%;
+}
+#presentationP p {
+    color: slategrey;
+    font-size: large;
+}
+#presentationA {
+    width: 100%;
+}
+#presentationA a {
+    background: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    padding: 5%;
+    border-radius: 24px;
+    text-decoration: none;
+    color: white;
+    box-shadow: -1px 5px 7px -3px rgb(175, 171, 171);
+}
+
+#presentationA a :hover {
+    background-color: black;
+    transform: scale(1.7);
+    transition: all 300ms;
+}
