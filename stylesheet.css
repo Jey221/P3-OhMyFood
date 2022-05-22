@@ -91,9 +91,11 @@ h3 , p , a {
     padding: 1% 4%;
 }
 #fonctionnement h2 {
-    margin: 6% 0%;
+    margin: 6% 0% 9% 0%;
 }
 #cartes {
+    display: flex;
+    flex-direction: column;
     margin-left: 8%;
 }
 .carteTuto {
@@ -104,6 +106,7 @@ h3 , p , a {
     box-shadow: 1px 1px 16px 0px rgb(175 171 171);
     width: 92%;
     border-radius: 17px;
+    margin-bottom: 9%;
 }
 .numeroTuto {
     background-color: rebeccapurple;
