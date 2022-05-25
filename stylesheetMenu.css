@@ -37,7 +37,7 @@ header img {
     box-sizing: border-box;
 }
 body {
-    margin: 3% 0%;
+    margin: 3% 0% 0% 0%;
 }
 main{
     width: 100%;
@@ -75,7 +75,10 @@ h1 {
 .nomRestaurant i {
     font-size: 25px;
 }
-/**ENTREE**/
+/**SECTION ENTREE PLAT DESSERT**/
+.categoriePlat {
+    margin-bottom: 12%;
+}
 .categoriePlat h3 {
     margin: 0%;
     padding-left: 19px;
@@ -87,6 +90,8 @@ h1 {
     border-bottom: 4px solid #99E2D0;
 }
 .carteMenu {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 21px;
     margin: 4%;
@@ -108,14 +113,29 @@ h1 {
     font-weight: bold;
     font-size: 18px;
 }
-
-
-
-
-
+/********************************************BOUTON COMMANDER*************************************/
+.boutonCommander {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15%;
+}
+.boutonCommander a {
+    background: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    padding: 4% 11%;
+    font-size: 15px;
+    border-radius: 24px;
+    text-decoration: none;
+    color: white;
+    box-shadow: -2px 15px 7px -3px rgb(175 171 171);
+}
 /********************************************FOOTER*********************************************/
 footer {
     background-color: #2c2b2b;
+    padding-bottom: 5%;
+}
+.piedDePage {
+    margin-top: 3%;
 }
 footer p {
     font-size: 20px;
@@ -129,7 +149,7 @@ footer ul {
     list-style: none;
 }
 footer li {
-    margin-bottom: 2%;
+    padding-bottom: 2%
 }
 footer a {
     text-decoration: none;
