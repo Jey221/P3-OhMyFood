@@ -88,6 +88,26 @@ h3 , h4 , p , a {
 .nomRestaurant i {
     font-size: 25px;
 }
+.fa-solid.fa-heart {
+    color: #9256dc00;
+    position: absolute;
+    left: 308px;
+}
+.fa-solid.fa-heart:hover {
+    color: #9356DC;
+    transition: all 1.5s;
+}
+.fa-solid.fa-heart.coeurMenu2 {
+    left: 310px;
+}
+.fa-solid.fa-heart.coeurMenu3 {
+    left: 288px;
+}
+.fa-solid.fa-heart.coeurMenu4 {
+    left: 305px;
+}
+
+
 /**SECTION ENTREE PLAT DESSERT**/
 .categoriePlat {
     margin-bottom: 12%;
