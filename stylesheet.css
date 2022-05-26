@@ -54,41 +54,49 @@ h3 , h4 , p , a {
     box-shadow: inset -1px 5px 7px -3px rgb(175, 171, 171);}
 /********************************************PRESENTATION*********************************************/
 #blocPresentation {
-    padding: 9% 8% 17% 8%;
+    padding: 9% 8% 0% 8%;
     text-align: center;
     background-color: rgba(217 215 215 / 50%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5%;
 }
-#presentationH2 {
+#presentationTitre {
     padding: 0% 5%;
 }
-#presentationH2 h2 {
+#presentationTitre h2 {
     margin: 0%;
 }
-#presentationP {
+#presentationIntro {
     margin-bottom: 7%;
 }
-#presentationP p {
+#presentationIntro p {
     color: slategrey;
     font-size: large;
 }
-#presentationA {
+#presentationBouton {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15%;
 }
-#presentationA a {
-    background: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
-    padding: 5%;
-    border-radius: 24px;
+.bouton {
     text-decoration: none;
     color: white;
+    background: linear-gradient(0deg,rgba(147,86,220,1),rgba(255,121,218,.9));
+    padding: 17px 35px;
+    border-radius: 30px;
     box-shadow: -1px 5px 7px -3px rgb(175, 171, 171);
+}
+.bouton:hover {
+    background: linear-gradient(0deg,rgba(147,86,220,.5),rgba(255,121,218,.8));
+    box-shadow: 1px 4px 10px 8px rgb(175 171 171);
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68, 0.63, 0.09, 0.92);   
 }
 /********************************************FONCTIONNEMENT*********************************************/
 #blocFonctionnement {
-    padding: 1% 4%;
+    padding: 7% 4%;
 }
 #blocFonctionnement h2 {
     margin: 6% 0% 9% 0%;
@@ -156,39 +164,29 @@ h3 , h4 , p , a {
     text-decoration: none;
     color: black;
 }
-#laPaletteDuGout {
+.miniatureRestaurant {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    border-radius: 20px 20px 0px 0px;
+}
+.laPaletteDuGout {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position-y: -56px;    
-    height: 160px;
-    border-radius: 20px 20px 0px 0px;
 }
-#laNoteEnchantee {
+.laNoteEnchantee {
     background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position-y: -153px;    
-    height: 160px;
-    border-radius: 20px 20px 0px 0px;
 }
-#aLaFrancaise {
+.aLaFrancaise {
     background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position-y: -61px;    
-    height: 160px;
-    border-radius: 20px 20px 0px 0px;
 }
-#leDeliceDesSens {
+.leDeliceDesSens {
     background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position-y: -71px;    
-    height: 160px;
-    border-radius: 20px 20px 0px 0px;
 }
-#aLaFrancaise p , #leDeliceDesSens p {
+.aLaFrancaise p , .leDeliceDesSens p {
     display: none;
 }
 .miniatureRestaurant p {
