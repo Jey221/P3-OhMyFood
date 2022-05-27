@@ -1,0 +1,91 @@
+/********************************************POLICES**************************************************/
+@font-face {
+    font-family: 'robotoRegular' ;
+    src: url(/polices/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'robotoBold' ;
+    src: url(/polices/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'robotoBlack' ;
+    src: url(/polices/Roboto/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'shrikhand' ;
+    src: url(/polices/Shrikhand/Shrikhand-Regular.ttf) format('truetype');
+}
+/********************************************GENERAL**************************************************/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 3% 0% 0% 0%;
+}
+main{
+    width: 100%;
+}
+h2 {
+    font-family: "robotoBlack";
+}
+h3 , h4 , p , a {
+    font-family: "robotoRegular", sans-serif;
+}
+/********************************************HEADER**************************************************/
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+}
+header img {
+    height: 31px;
+    margin-right: -8%;
+}
+/********************************************BOUTON COMMANDER*************************************/
+.bouton {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(0deg,rgba(147,86,220,1),rgba(255,121,218,.9));
+    padding: 17px 35px;
+    border-radius: 30px;
+    box-shadow: -1px 5px 7px -3px rgb(175, 171, 171);
+}
+.bouton:hover , .carteTuto:hover {
+    background: linear-gradient(0deg,rgba(147,86,220,.5),rgba(255,121,218,.8));
+    box-shadow: 1px 4px 10px 8px rgb(175 171 171);
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68, 0.63, 0.09, 0.92);   
+}
+/********************************************FOOTER*********************************************/
+footer {
+    background-color: #2c2b2b;
+    padding-bottom: 5%;
+}
+footer p {
+    font-size: 20px;
+    font-family: 'shrikhand';
+    color: white;
+    padding: 5% 0% 0% 10%;
+    margin: 0%;
+}
+.piedDePage {
+    margin-top: 3%;
+}
+.piedDePage ul {
+    margin: 0%;
+    list-style: none;
+}
+.piedDePage li {
+    padding-bottom: 2%;
+}
+.piedDePage a {
+    text-decoration: transparent;
+    color: white;
+}
+.fa-handshake-angle {
+    margin-right: 3%;
+}
+.fa-utensils {
+    margin-right: 5%;
+}
