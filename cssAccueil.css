@@ -62,6 +62,11 @@ header {
     border-radius: 17px;
     margin-bottom: 9%;
 }
+.carteTuto:hover {
+    background: linear-gradient(0deg,rgb(251 251 251 / 85%),rgb(255 4 186 / 28%));
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68, 0.63, 0.09, 0.92);   
+}
 .numeroTuto {
     background-color: rebeccapurple;
     color: white;
