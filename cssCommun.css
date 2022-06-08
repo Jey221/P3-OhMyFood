@@ -106,41 +106,89 @@ footer p {
 }
 
 .carteMenu {
-  animation: 0.3s;
+  animation: 0.5s;
   animation-fill-mode: both;
   animation-name: slidein;
 }
 
+.animationDelai1 {
+  animation-delay: 100ms;
+}
+
 .animationDelai2 {
-  animation-delay: 0.3s;
+  animation-delay: 200ms;
 }
 
 .animationDelai3 {
-  animation-delay: 0.6s;
+  animation-delay: 300ms;
 }
 
 .animationDelai4 {
-  animation-delay: 0.9s;
+  animation-delay: 400ms;
 }
 
 .animationDelai5 {
-  animation-delay: 1.2s;
+  animation-delay: 500ms;
 }
 
 .animationDelai6 {
-  animation-delay: 1.5s;
+  animation-delay: 600ms;
 }
 
 .animationDelai7 {
-  animation-delay: 1.8s;
+  animation-delay: 700ms;
 }
 
 .animationDelai8 {
-  animation-delay: 2.1s;
+  animation-delay: 800ms;
 }
 
 .animationDelai9 {
-  animation-delay: 2.4s;
+  animation-delay: 900ms;
+}
+
+.animationDelai10 {
+  animation-delay: 1000ms;
+}
+
+.animationDelai11 {
+  animation-delay: 1100ms;
+}
+
+.animationDelai12 {
+  animation-delay: 1200ms;
+}
+
+.animationDelai13 {
+  animation-delay: 1300ms;
+}
+
+.animationDelai14 {
+  animation-delay: 1400ms;
+}
+
+.animationDelai15 {
+  animation-delay: 1500ms;
+}
+
+.animationDelai16 {
+  animation-delay: 1600ms;
+}
+
+.animationDelai17 {
+  animation-delay: 1700ms;
+}
+
+.animationDelai18 {
+  animation-delay: 1800ms;
+}
+
+.animationDelai19 {
+  animation-delay: 1900ms;
+}
+
+.animationDelai20 {
+  animation-delay: 2000ms;
 }
 
 @keyframes slidein {
