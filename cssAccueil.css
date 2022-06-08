@@ -170,12 +170,3 @@ header {
     margin-top: -2%;
     margin-bottom: 1%;
 }
-.fa-solid.fa-heart {
-    color: #9256dc00;
-    position: absolute;
-    left: 301px;
-}
-.fa-solid.fa-heart:hover {
-    color: #9356DC;
-    transition: all 1.5s;
-}

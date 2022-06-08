@@ -90,6 +90,7 @@ footer {
     margin-right: 5%;
 }
 /********************************************ANIMATION*************************************/
+/*animation liste des plats*/
 .categoriePlat {
     overflow: hidden;
 }
@@ -133,3 +134,27 @@ footer {
         opacity: 100%;
       }
 }
+/*animation "petite coche"*/
+
+/*animation coeur*/
+.fa-solid.fa-heart {
+    color: #9256dc00;
+    position: absolute;
+    left: 301px;
+    &:hover {
+        color: #9356DC;
+        animation-duration: 0.5s;
+        animation-name: heartCheck;
+    }
+}
+    @keyframes heartCheck {
+        from {
+            transform: scaleY(0);
+            opacity: 0%;
+        }
+    
+        to {
+            transform: scaleY(1);
+            opacity: 100%;
+        }
+    }
