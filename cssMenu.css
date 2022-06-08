@@ -45,20 +45,6 @@ header a {
 .nomRestaurant i {
     font-size: 25px;
 }
-.fa-solid.fa-heart {
-    color: #9256dc00;
-    position: absolute;
-    left: 308px;
-}
-.fa-solid.fa-heart.coeurMenu2 {
-    left: 310px;
-}
-.fa-solid.fa-heart.coeurMenu3 {
-    left: 288px;
-}
-.fa-solid.fa-heart.coeurMenu4 {
-    left: 305px;
-}
 /**SECTION ENTREE PLAT DESSERT**/
 .categoriePlat {
     margin-bottom: 12%;
@@ -68,27 +54,12 @@ header a {
     padding-left: 19px;
     padding-bottom: 8px;
     font-size: 17px;
+    font-weight: lighter;
 }
 .ligne {
     margin-left: 19px;
     width: 48px;
     border-bottom: 4px solid #99E2D0;
-}
-.carteMenu h4 {
-    margin: 0%;
-    margin-bottom: 3px;
-    font-size: 16px;
-}
-.carteMenu p {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0%;
-    font-size: 13px;
-}
-.carteMenu span {
-    font-weight: bold;
-    font-size: 14px;
 }
 /********************************************BOUTON COMMANDER*************************************/
 .menuBouton {

@@ -125,12 +125,34 @@ footer {
     overflow: hidden;
     align-items: stretch;
     justify-content: space-between;
-    text-overflow: ellipsis;
+    max-width: 100%;
     .texteMenu {
-        overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        padding: 3% 62% 3% 3%;
+        overflow: hidden;
+        padding: 12px;
+        width: 100%;
+    }
+    h4 {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin: 0%;
+        margin-bottom: 3px;
+        font-size: 19px;
+    }
+    p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;
+        font-size: 14px;
+    }
+    span {
+        font-weight: bold;
     }
     .prixMenu {
         display: flex;
@@ -140,7 +162,7 @@ footer {
     .checkMenu {
         background-color: #99E2D0;
         padding: 6% 4%;
-        margin-right: -46px;
+        margin-right: -50px;
         display: flex;
         align-items: center;
         i {
@@ -178,11 +200,23 @@ footer {
 .fa-solid.fa-heart {
     color: #9256dc00;
     position: absolute;
-    left: 301px;
+    left: 317px;
     &:hover {
         color: #9356DC;
         animation-duration: 0.5s;
         animation-name: heartCheck;
+    }
+    &.coeurMenu1 {
+        left: 319px;
+    }
+    &.coeurMenu2 {
+        left: 321px;
+    }
+    &.coeurMenu3 {
+        left: 300px;
+    }
+    &.coeurMenu4 {
+        left: 316px;
     }
 }
     @keyframes heartCheck {
