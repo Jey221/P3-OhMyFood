@@ -154,6 +154,62 @@ footer p {
   }
 }
 /*animation "petite coche"*/
+.carteMenu {
+  display: flex;
+  background-color: white;
+  border-radius: 21px;
+  margin: 4%;
+  box-shadow: 1px 1px 16px 0px rgb(175, 171, 171);
+  overflow: hidden;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.carteMenu .texteMenu {
+  padding: 4%;
+  margin-right: 50px;
+}
+.carteMenu .prixMenu {
+  display: flex;
+  align-items: end;
+  padding: 2%;
+}
+.carteMenu .checkMenu {
+  background-color: #99E2D0;
+  padding: 6% 4%;
+  margin-right: -66px;
+  display: flex;
+  align-items: center;
+}
+.carteMenu .checkMenu i {
+  color: white;
+  font-size: 19px;
+}
+.carteMenu:hover .checkMenu {
+  animation-duration: 1s;
+  animation-name: animCheck;
+  animation-fill-mode: both;
+}
+@keyframes animCheck {
+  0% {
+    margin-right: -66px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+}
+.carteMenu:hover i {
+  animation-duration: 0.9s;
+  animation-name: rotateCheck;
+}
+@keyframes rotateCheck {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-720deg);
+  }
+}
+
 /*animation coeur*/
 .fa-solid.fa-heart {
   color: rgba(146, 86, 220, 0);

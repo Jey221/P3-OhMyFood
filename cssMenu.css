@@ -72,7 +72,7 @@ header a {
     margin-left: 19px;
     width: 48px;
     border-bottom: 4px solid #99E2D0;
-}
+}/*
 .carteMenu {
     display: flex;
     flex-direction: column;
@@ -81,25 +81,28 @@ header a {
     margin: 4%;
     padding: 4%;
     box-shadow: 1px 1px 16px 0px rgb(175 171 171);
-}
+    overflow: hidden;
+}/*
+.carteMenu {
+    flex-direction: initial;
+    align-items: stretch;
+    justify-content: space-between;
+}*/
 .carteMenu h4 {
     margin: 0%;
     margin-bottom: 3px;
-    font-size: 15px;
+    font-size: 18px;
 }
 .carteMenu p {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0%;
-    font-size: 12px;
+    font-size: 13px;
 }
 .carteMenu span {
     font-weight: bold;
-    font-size: 12px;
-}
-.fa-circle-check {
-    display: none;
+    font-size: 14px;
 }
 /********************************************BOUTON COMMANDER*************************************/
 .menuBouton {
