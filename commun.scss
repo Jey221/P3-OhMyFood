@@ -325,26 +325,20 @@ footer {
     }
 }
 /*animation coeur*/
-.fa-solid.fa-heart {
-    color: #9256dc00;
-    position: absolute;
-    left: 302px;
-    &:hover {
+.zoneCoeurMenu {
+    display: flex;
+    align-items: center;
+    &:hover .coeurMenu{
         color: #9356DC;
         animation-duration: 0.5s;
         animation-name: heartCheck;
     }
-    &.coeurMenu1 {
-        left: 308px;
+    .coeurMenu {
+        color: #9256dc00;
     }
-    &.coeurMenu2 {
-        left: 310px;
-    }
-    &.coeurMenu3 {
-        left: 289px;
-    }
-    &.coeurMenu4 {
-        left: 306px;
+    i {
+        position: absolute;
+        font-size: 25px;
     }
 }
 @keyframes heartCheck {
@@ -357,3 +351,36 @@ footer {
         opacity: 100%;
     }
 }
+/*animation coeur
+.fa-solid.fa-heart {
+    color: #9256dc00;
+    position: absolute;
+    left: 317px;
+    &:hover {
+        color: #9356DC;
+        animation-duration: 0.5s;
+        animation-name: heartCheck;
+    }
+    &.coeurMenu1 {
+        left: 319px;
+    }
+    &.coeurMenu2 {
+        left: 321px;
+    }
+    &.coeurMenu3 {
+        left: 300px;
+    }
+    &.coeurMenu4 {
+        left: 316px;
+    }
+}
+@keyframes heartCheck {
+    from {
+        transform: scaleX(0);
+        opacity: 0%;
+    }
+    to {
+        transform: scaleX(1);
+        opacity: 100%;
+    }
+}*/

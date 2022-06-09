@@ -414,27 +414,21 @@ footer p {
 }
 
 /*animation coeur*/
-.fa-solid.fa-heart {
-  color: rgba(146, 86, 220, 0);
-  position: absolute;
-  left: 302px;
+.zoneCoeurMenu {
+  display: flex;
+  align-items: center;
 }
-.fa-solid.fa-heart:hover {
+.zoneCoeurMenu:hover .coeurMenu {
   color: #9356DC;
   animation-duration: 0.5s;
   animation-name: heartCheck;
 }
-.fa-solid.fa-heart.coeurMenu1 {
-  left: 308px;
+.zoneCoeurMenu .coeurMenu {
+  color: rgba(146, 86, 220, 0);
 }
-.fa-solid.fa-heart.coeurMenu2 {
-  left: 310px;
-}
-.fa-solid.fa-heart.coeurMenu3 {
-  left: 289px;
-}
-.fa-solid.fa-heart.coeurMenu4 {
-  left: 306px;
+.zoneCoeurMenu i {
+  position: absolute;
+  font-size: 25px;
 }
 
 @keyframes heartCheck {
@@ -447,5 +441,38 @@ footer p {
     opacity: 100%;
   }
 }
+/*animation coeur
+.fa-solid.fa-heart {
+    color: #9256dc00;
+    position: absolute;
+    left: 317px;
+    &:hover {
+        color: #9356DC;
+        animation-duration: 0.5s;
+        animation-name: heartCheck;
+    }
+    &.coeurMenu1 {
+        left: 319px;
+    }
+    &.coeurMenu2 {
+        left: 321px;
+    }
+    &.coeurMenu3 {
+        left: 300px;
+    }
+    &.coeurMenu4 {
+        left: 316px;
+    }
+}
+@keyframes heartCheck {
+    from {
+        transform: scaleX(0);
+        opacity: 0%;
+    }
+    to {
+        transform: scaleX(1);
+        opacity: 100%;
+    }
+}*/
 
 /*# sourceMappingURL=cssCommun.css.map */
