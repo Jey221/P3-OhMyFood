@@ -16,6 +16,10 @@
     font-family: 'shrikhand' ;
     src: url(/polices/Shrikhand/Shrikhand-Regular.ttf) format('truetype');
 }
+/********************************************COULEURS**************************************************/
+$colorPrimaire:#9356DC;
+$colorSecondaire:#FF79DA;
+$colorTertiaire:#99E2D0;
 /********************************************GENERAL**************************************************/
 * {
     box-sizing: border-box;
@@ -46,12 +50,13 @@ header {
 .bouton {
     text-decoration: none;
     color: white;
-    background: linear-gradient(0deg,rgba(147,86,220,1),rgba(255,121,218,.9));
+    background: linear-gradient(0deg,$colorPrimaire,$colorSecondaire);
     padding: 17px 35px;
     border-radius: 30px;
     box-shadow: -1px 5px 7px -3px rgb(175, 171, 171);
     &:hover {
-        background: linear-gradient(0deg,rgba(147,86,220,.5),rgba(255,121,218,.8));
+        background: linear-gradient(0deg,$colorPrimaire,$colorSecondaire);
+        opacity: 0.7;
         box-shadow: 1px 4px 10px 8px rgb(175 171 171);
         transition-duration: 1s;
         transition-timing-function: cubic-bezier(0.68, 0.63, 0.09, 0.92);   
@@ -112,7 +117,7 @@ footer {
     .fa-spinner1 {
         position: inherit;
         z-index: 3;
-        color: #99E2D0;
+        color: $colorTertiaire;
         font-size: 40px;
         animation-timing-function: ease-out;
         animation-duration: 5s;
@@ -122,7 +127,7 @@ footer {
     .fa-spinner2 {
         position: inherit;
         z-index: 3;
-        color: #FF79DA;
+        color: $colorSecondaire;
         font-size: 80px;
         animation-timing-function: ease-out;
         animation-duration: 5s;
@@ -132,7 +137,7 @@ footer {
     .fa-spinner3 {
         position: inherit;
         z-index: 3;
-        color: #9356DC;
+        color: $colorPrimaire;
         font-size: 160px;
         animation-timing-function: ease-out;
         animation-duration: 5s;
@@ -182,8 +187,9 @@ footer {
     border-radius: 17px;
     margin-bottom: 9%;
     &:hover {
-        background: linear-gradient(0deg,rgb(251 251 251 / 85%),rgb(255 4 186 / 28%));
-        transition-duration: 1s;
+        transform: scale(1.04);
+        box-shadow: 1px 1px 16px 7px rgb(175 171 171);
+        transition-duration: 100ms;
         transition-timing-function: cubic-bezier(0.68, 0.63, 0.09, 0.92); 
         .fa-list , .fa-mobile-screen-button , .fa-store {
             color: rebeccapurple;
