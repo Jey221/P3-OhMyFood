@@ -140,6 +140,47 @@ footer {
         opacity: 0;
     }
 }
+/*animation carteTuto*/
+.carteTuto {
+    background-color: rgba(217 215 215 / 50%);
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    box-shadow: 1px 1px 16px 0px rgb(175 171 171);
+    width: 92%;
+    border-radius: 17px;
+    margin-bottom: 9%;
+    &:hover {
+        background: linear-gradient(0deg,rgb(251 251 251 / 85%),rgb(255 4 186 / 28%));
+        transition-duration: 1s;
+        transition-timing-function: cubic-bezier(0.68, 0.63, 0.09, 0.92); 
+        .fa-list , .fa-mobile-screen-button , .fa-store {
+            color: rebeccapurple;
+        }    
+    }   
+}
+.numeroTuto {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 10px;
+    padding: 2% 3%;
+    border-radius: 50%;
+    margin-left: -5%;
+    p {
+        margin: 0%;
+    }
+}
+.texteTuto {
+    width: 100%;
+    padding: 3% 0%;
+    p {
+        font-family: 'robotoBold';
+    }
+}
+.fa-list , .fa-mobile-screen-button , .fa-store {
+    color: slategrey;
+    margin-right: 8%;  
+}
 /*animation liste des plats*/
 .categoriePlat {
     overflow: hidden;
@@ -279,5 +320,3 @@ footer {
         opacity: 100%;
     }
 }
-
-    
