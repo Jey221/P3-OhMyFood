@@ -120,10 +120,31 @@ footer p {
   animation-fill-mode: both;
   transform-origin: top;
 }
-.loadingSpinner .fa-spinner {
-  z-index: 4;
-  color: rgb(147, 86, 220);
-  font-size: 185px;
+.loadingSpinner .fa-spinner1 {
+  position: inherit;
+  z-index: 3;
+  color: #99E2D0;
+  font-size: 40px;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-name: rotateSpinner;
+}
+.loadingSpinner .fa-spinner2 {
+  position: inherit;
+  z-index: 3;
+  color: #FF79DA;
+  font-size: 80px;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-name: rotateSpinnerBis;
+}
+.loadingSpinner .fa-spinner3 {
+  position: inherit;
+  z-index: 3;
+  color: #9356DC;
+  font-size: 160px;
   animation-timing-function: ease-out;
   animation-duration: 5s;
   animation-fill-mode: both;
@@ -146,6 +167,17 @@ footer p {
   }
   to {
     transform: rotateZ(-540deg);
+    z-index: -5;
+    opacity: 0;
+  }
+}
+@keyframes rotateSpinnerBis {
+  from {
+    transform: rotateZ(-360deg);
+    z-index: 4;
+  }
+  to {
+    transform: rotateZ(540deg);
     z-index: -5;
     opacity: 0;
   }
