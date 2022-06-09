@@ -250,33 +250,32 @@ footer {
 .fa-solid.fa-heart {
     color: #9256dc00;
     position: absolute;
-    left: 317px;
+    left: 302px;
     &:hover {
         color: #9356DC;
         animation-duration: 0.5s;
         animation-name: heartCheck;
     }
     &.coeurMenu1 {
-        left: 319px;
+        left: 308px;
     }
     &.coeurMenu2 {
-        left: 321px;
+        left: 310px;
     }
     &.coeurMenu3 {
-        left: 300px;
+        left: 289px;
     }
     &.coeurMenu4 {
-        left: 316px;
+        left: 306px;
     }
 }
 @keyframes heartCheck {
     from {
-        transform: scaleY(0);
+        transform: scaleX(0);
         opacity: 0%;
     }
-    
     to {
-        transform: scaleY(1);
+        transform: scaleX(1);
         opacity: 100%;
     }
 }
