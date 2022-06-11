@@ -1,7 +1,205 @@
+h2 {
+    font-size: 30px;
+    margin-bottom: 4%;
+}
 /********************************************HEADER**************************************************/
+header img {
+    height: 50px;
+    margin-right: 0%;
+}
+#headerMenu {
+    justify-content: center;
+}
+header {
+    margin-bottom: 1%;
+}
 /********************************************LOCALISATION*********************************************/
+#blocLocalisation i {
+    font-size: 34px;
+}
+#blocLocalisation h3 {
+    font-size: 34px;
+    margin: 1%;
+}
 /********************************************PRESENTATION*********************************************/
+#blocPresentation {
+    padding: 1%;
+    padding-bottom: 3%;
+}
+#presentationTitre h2 {
+    margin: 0%;
+}
+#presentationIntro {
+    margin-bottom: 0%;
+}
+#presentationBouton {
+    padding-bottom: 0%;
+}
+.bouton {
+    font-size: 27px;
+    box-shadow: 2px 5px 7px 1px rgb(175, 171, 171);
+}
+/********************************************FONCTIONNEMENT*******************************************/
+#blocFonctionnement {
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#blocFonctionnement h2 {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+#cartes {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-left: 0%;
+}
+.carteTuto {
+    font-size: 23px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0%;
+}
+.texteTuto {
+    padding: 2% 0%;
+    text-align: center;
+}
+.texteTuto p {
+    margin: 3%;
+}
+.numeroTuto {
+    margin-left: 0%;
+    font-size: 18px;
+    margin-top: -15px;
+    padding: 1% 4%;
+}
 /********************************************RESTAURANTS*********************************************/
+#listeRestaurants {
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.cartesRestaurant {
+    width: 23%;
+}
+.miniatureRestaurant {
+    height: 180px;
+    background-position-y: 0px;
+}
+.miniatureRestaurant p span {
+    margin-left: 65%;
+    border-radius: 4px;
+    font-size: 77%;
+}
+.descriptionRestaurant {
+    font-size: 13px;
+}
+.descriptionRestaurant h4 {
+    font-size: 19px;
+}
+.texteRestaurant {
+    padding: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zoneCoeurMenu {
+    margin-right: 13%;
+}
+.zoneCoeurMenu i {
+    font-size: 28px;
+}
 /********************************************FOOTER**************************************************/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p {
+    font-size: 45px;
+    padding: 0%; 
+}
+.piedDePage ul {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0%;
+}
+.piedDePage {
+    margin-top: 0%;
+}
 /****************************************************************************************************/
 /********************************************MENU****************************************************/
+/****************************************************************************************************/
+/*******************************************HEADER***************************************************/
+header {
+    gap: 25%;
+    justify-content: flex-start;
+}
+header a {
+    font-size: 46px;
+}
+/*******************************************ILLUSTRATION**********************************************/
+.illustrationRestaurant {
+    height: 390px;
+}
+.menu1 {
+    background-position-y: -175px;
+}
+/*******************************************MENU*****************************************************/
+.nomRestaurant {
+    justify-content: space-between;
+}
+.nomRestaurant p {
+    margin: 1%;
+    font-size: 48px;
+}
+.nomRestaurant .zoneCoeurMenu {
+    margin-right: 10%;
+}
+.blocPlat {
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-basis: 100%;
+}
+.categoriePlat {
+    margin-bottom: 0%;
+    flex-grow: 1 ;
+}
+.categoriePlat h3 {
+    font-size: 23px;
+}
+.ligne {
+    width: 67px;
+    margin-bottom: 10%;
+}
+.carteMenu {
+    width: 300px;
+}
+.texteMenu {
+    width: 71;
+    padding: 10px;
+    width: 90%;
+}
+.carteMenu h4 {
+    font-size: 19px;
+}
+.carteMenu p {
+    font-size: 14px;
+}
+.prixMenu {
+    padding-right: 2%;
+}
+.checkMenu {
+    margin-right: -44px;
+}
+.menuBouton {
+    padding-bottom: 5%;
+}

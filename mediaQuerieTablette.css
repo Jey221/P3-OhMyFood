@@ -1,6 +1,10 @@
+h2 {
+    font-size: 30px;
+    margin-bottom: 5%;
+}
 /********************************************HEADER**************************************************/
 header img {
-    height: 90px;
+    height: 88px;
 }
 /********************************************LOCALISATION*********************************************/
 #blocLocalisation i {
@@ -16,7 +20,6 @@ header img {
 }
 #presentationTitre h2 {
     margin: 0%;
-    font-size: 28px;
 }
 #presentationIntro {
     margin-bottom: 4%;
@@ -28,11 +31,93 @@ header img {
     font-size: 27px;
     box-shadow: 2px 5px 7px 1px rgb(175, 171, 171);
 }
-/********************************************PRESENTATION*********************************************/
+/********************************************FONCTIONNEMENT*********************************************/
 #blocFonctionnement {
     padding: 0% 4%;
 }
+#blocFonctionnement h2 {
+    margin-bottom: 5%;
+}
+.carteTuto {
+    font-size: 27px;
+}
+.texteTuto {
+    padding: 2% 0%;
+}
+.numeroTuto {
+    font-size: 26px;
+    padding: 3% 4%;
+}
 /********************************************RESTAURANTS*********************************************/
+.miniatureRestaurant {
+    height: 280px;
+}
+.miniatureRestaurant p span {
+    margin-left: 80%;
+    border-radius: 4px;
+    font-size: 111%;
+}
+.descriptionRestaurant {
+    font-size: 23px;
+}
+.descriptionRestaurant h4 {
+    font-size: 30px;
+}
+.zoneCoeurMenu i {
+    font-size: 43px;
+}
 /********************************************FOOTER**************************************************/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p {
+    font-size: 45px;
+    padding: 5% 0% 0% 0%; 
+}
+.piedDePage ul {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0%;
+}
 /****************************************************************************************************/
 /********************************************MENU****************************************************/
+/****************************************************************************************************/
+/*******************************************HEADER***************************************************/
+header a {
+    font-size: 46px;
+}
+/*******************************************ILLUSTRATION**********************************************/
+.illustrationRestaurant {
+    height: 390px;
+}
+/*******************************************MENU*****************************************************/
+.nomRestaurant p {
+    margin: 1%;
+    font-size: 48px;
+}
+.categoriePlat h3 {
+    font-size: 34px;
+}
+.categoriePlat {
+    margin-bottom: 4%;
+}
+.ligne {
+    width: 105px;
+}
+.carteMenu h4 {
+    font-size: 30px;
+}
+.carteMenu p {
+    font-size: 24px;
+}
+.carteMenu .prixMenu {
+    padding-right: 4%;
+}
+.carteMenu .checkMenu {
+    margin-right: -75px;
+}

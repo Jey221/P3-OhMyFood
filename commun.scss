@@ -328,6 +328,7 @@ footer {
 .zoneCoeurMenu {
     display: flex;
     align-items: center;
+    margin-right: 7%;
     &:hover .coeurMenu{
         color: #9356DC;
         animation-duration: 0.5s;
@@ -351,36 +352,3 @@ footer {
         opacity: 100%;
     }
 }
-/*animation coeur
-.fa-solid.fa-heart {
-    color: #9256dc00;
-    position: absolute;
-    left: 317px;
-    &:hover {
-        color: #9356DC;
-        animation-duration: 0.5s;
-        animation-name: heartCheck;
-    }
-    &.coeurMenu1 {
-        left: 319px;
-    }
-    &.coeurMenu2 {
-        left: 321px;
-    }
-    &.coeurMenu3 {
-        left: 300px;
-    }
-    &.coeurMenu4 {
-        left: 316px;
-    }
-}
-@keyframes heartCheck {
-    from {
-        transform: scaleX(0);
-        opacity: 0%;
-    }
-    to {
-        transform: scaleX(1);
-        opacity: 100%;
-    }
-}*/
