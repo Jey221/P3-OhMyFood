@@ -10,9 +10,7 @@ header img {
 #headerMenu {
     justify-content: center;
 }
-header {
-    margin-bottom: 1%;
-}
+
 /********************************************LOCALISATION*********************************************/
 #blocLocalisation i {
     font-size: 34px;
@@ -137,8 +135,10 @@ footer p {
 /****************************************************************************************************/
 /*******************************************HEADER***************************************************/
 header {
-    gap: 25%;
+    gap: 35%;
     justify-content: flex-start;
+    margin-bottom: 1%;
+    
 }
 header a {
     font-size: 46px;
