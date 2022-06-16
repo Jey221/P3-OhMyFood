@@ -182,10 +182,9 @@ header a {
     margin-bottom: 10%;
 }
 .carteMenu {
-    width: 300px;
+    width: 370px;
 }
-.texteMenu {
-    width: 71;
+.carteMenu .texteMenu {
     padding: 10px;
     width: 90%;
 }

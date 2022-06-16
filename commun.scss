@@ -227,7 +227,7 @@ footer {
     animation-fill-mode: both;
     animation-name: slidein;
 }
-@for $i from 1 through 20 {
+@for $i from 1 through 11 {
     .animationDelai#{$i} {
         animation-delay: 100ms * $i;
     }
